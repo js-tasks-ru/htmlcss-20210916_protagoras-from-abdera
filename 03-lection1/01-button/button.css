@@ -1,1 +1,54 @@
 /* Стилизация кнопки */
+.card__button {
+    width: 182px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.75px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.card__button_primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.card__button_primary:hover:enabled {
+    background-color: #2342C0;
+}
+
+.card__button_primary:disabled {
+    opacity: 0.5;
+}
+
+.card__button_secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.card__button_secondary:hover:enabled {
+    background-color: #5028C6;
+}
+
+.card__button_secondary:disabled {
+    opacity: 0.5;
+}
+
+.card__button_alternate {
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+}
+
+.card__button_alternate:hover:enabled {
+    border: 1px solid #212429;
+}
+
+.card__button_alternate:disabled {
+    color: var(--grey-4);
+    opacity: 0.3;
+}
