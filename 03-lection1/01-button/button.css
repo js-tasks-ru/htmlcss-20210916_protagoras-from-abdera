@@ -18,10 +18,12 @@
 
 .card__button_primary:hover:enabled {
     background-color: #2342C0;
+    cursor: pointer;
 }
 
 .card__button_primary:disabled {
     opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .card__button_secondary {
@@ -31,10 +33,12 @@
 
 .card__button_secondary:hover:enabled {
     background-color: #5028C6;
+    cursor: pointer;
 }
 
 .card__button_secondary:disabled {
     opacity: 0.5;
+    cursor: not-allowed;
 }
 
 .card__button_alternate {
@@ -46,9 +50,11 @@
 
 .card__button_alternate:hover:enabled {
     border: 1px solid #212429;
+    cursor: pointer;
 }
 
 .card__button_alternate:disabled {
     color: var(--grey-4);
     opacity: 0.3;
+    cursor: not-allowed;
 }
