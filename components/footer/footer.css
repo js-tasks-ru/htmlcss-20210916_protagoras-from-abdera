@@ -4,9 +4,19 @@
 
 .footer__title {
     padding-top: 71px;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 48px;
 }
 
 .footer__text {
     margin: 32px auto 136px auto;
     width: 640px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
 }

@@ -1,6 +1,6 @@
 .main {
-    background-color: #e5e5e5;
+    background-color: var(--grey-90);
     height: 1036px;
-    border-top: 1px solid #DDE2E5;
-    border-bottom: 1px solid #DDE2E5;
+    border-top: 1px solid var(--pattens-blue);
+    border-bottom: 1px solid var(--pattens-blue);
 }
