@@ -1,0 +1,6 @@
+.main {
+    background-color: var(--grey-90);
+    height: 1036px;
+    border-top: 1px solid var(--pattens-blue);
+    border-bottom: 1px solid var(--pattens-blue);
+}
