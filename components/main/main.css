@@ -1,6 +1,38 @@
 .main {
+    display: flex;
+    gap: 30px 30px;
+    flex-wrap: wrap;
     background-color: var(--grey-90);
     height: 1036px;
+    box-sizing: border-box;
     border-top: 1px solid var(--pattens-blue);
     border-bottom: 1px solid var(--pattens-blue);
+    padding: 68px 165px 204px 165px;
+    margin: 0;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 75px;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    width: 350px;
+    height: 367px;
+    box-sizing: border-box;
+    padding-left: 26px;
+    padding-right: 24px;
+    padding-bottom: 30px;
+}
+
+.preview__name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
 }
