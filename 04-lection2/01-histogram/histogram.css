@@ -37,10 +37,6 @@
     color: var(--blue);
 }
 
-.histogram__link > p {
-    margin: 0;
-}
-
 .histogram__number {
     flex-grow: 1;
     margin-top: 5px;
