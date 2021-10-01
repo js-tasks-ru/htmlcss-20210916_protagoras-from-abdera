@@ -36,13 +36,13 @@
 }
 
 .skeleton__bar-full {
-    width: 515px;
+    width: 100%;
 }
 
 .skeleton__bar-middle {
-    width: 257px;
+    width: 50%;
 }
 
 .skeleton__bar-small {
-    width: 172px;
+    width: 33%;
 }
