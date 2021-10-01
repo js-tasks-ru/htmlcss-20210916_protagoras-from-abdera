@@ -10,29 +10,3 @@
     padding: 68px 165px 204px 165px;
     margin: 0;
 }
-
-.card {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 25px;
-    background-color: var(--white);
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
-    width: 350px;
-    height: 367px;
-    box-sizing: border-box;
-    padding-left: 26px;
-    padding-right: 24px;
-    padding-bottom: 30px;
-}
-
-.card__name {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-    text-align: center;
-    color: var(--black);
-    margin: 0;
-}
